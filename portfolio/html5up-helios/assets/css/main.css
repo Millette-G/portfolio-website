@@ -87,7 +87,7 @@ input, select, textarea {
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: Palatino, URW Palladio L, serif;
 		font-weight: 300;
 	}
 
@@ -105,7 +105,7 @@ input, select, textarea {
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: Palatino, URW Palladio L, serif;
 		font-weight: 300;
 	}
 
@@ -1761,14 +1761,14 @@ input, select, textarea {
 	}
 
 	header {
-		margin: 0 0 1em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 		header > p {
 			display: block;
 			font-size: 1.5em;
 			margin: 1em 0 2em 0;
-			line-height: 1.5em;
+			line-height: 1.7em;
 			text-align: inherit;
 		}
 
@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/business-code-coding-computer-270360.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2206,14 +2206,20 @@ input, select, textarea {
 		}
 
 			#header header > p {
-				font-size: 1.25em;
+				font-size: 2rem;
 				margin: 0;
 			}
 
 		#header h1 {
-			color: #fff;
-			font-size: 3em;
-			line-height: 1em;
+			height: 20vh;
+			border-radius:50%;
+			color: rgb(201, 201, 201);
+			background-color: rgba(0,0,0, 0.82);;
+			text-shadow: 2px 2px 16px white;
+			box-shadow:0 0 10px 4px black , 0 0 30px 33px hsl(249, 100%, 25%), 30px 30px 20px 6px rgb(20, 220, 255), -30px -30px 20px 6px #FF4500;
+			/**/
+			font-size: 4rem;
+			line-height: 1.6em;
 		}
 
 			#header h1 a {
@@ -2221,6 +2227,8 @@ input, select, textarea {
 			}
 
 		#header .button {
+			box-shadow:0 0 10px 4px black;
+			background-color: darkred;
 			display: inline-block;
 			border-radius: 100%;
 			width: 4.5em;
@@ -3063,6 +3071,7 @@ input, select, textarea {
 
 				#header h1 {
 					font-size: 1.75em;
+				
 				}
 
 				#header hr {
