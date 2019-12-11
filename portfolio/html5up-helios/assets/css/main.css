@@ -2225,7 +2225,7 @@ input, select, textarea {
 			color: rgb(201, 201, 201);
 			background-color: rgba(0,0,0, 0.95);
 			text-shadow: 1px 1px 16px white;
-			box-shadow:0 0 20px 4px black , 0 0 18px 39px hsl(249, 100%, 25%), 15px 15px 30px 55px rgb(20, 220, 255), -15px -15px 30px 55px #FF4500;
+			box-shadow:0 0 20px 4px black, 0 0 18px 39px hsl(249, 100%, 25%), 15px 15px 30px 55px rgb(20, 220, 255), -15px -15px 30px 55px #FF4500;
 			/**/
 			font-size: 4rem;
 			line-height: 1.6em;
